@@ -1,0 +1,39 @@
+/* Global settings */
+10
+$color-border: #eee;
+11
+$color-label: #aaa;
+12
+$font-default: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+13
+$font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
+14
+​
+15
+​
+16
+/* Global "table" column settings */
+17
+.product-image { float: left; width: 20%; }
+18
+.product-details { float: left; width: 37%; }
+19
+.product-price { float: left; width: 12%; }
+20
+.product-quantity { float: left; width: 10%; }
+21
+.product-removal { float: left; width: 9%; }
+22
+.product-line-price { float: left; width: 12%; text-align: right; }
+23
+​
+24
+​
+25
+/* This is used as the traditional .clearfix class */
+26
+.group:before,
+27
+.group:after {
+28
+    content: '';
